@@ -13,9 +13,6 @@ install.packages("patchwork")
 install.packages("ggthemes")
 remotes::install_github("igraph/rigraph")
 install.packages("plotly")
-remotes::install_github("highcharter")
+remotes::install_github("jbkunst/highcharter")
 remotes::install_github("UrbanInstitute/urbnmapr")
-
-
-
 
