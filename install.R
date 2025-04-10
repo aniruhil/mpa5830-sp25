@@ -15,8 +15,11 @@ install.packages("tidycensus")
 #remotes::install_github("walkerke/tidycensus")
 install.packages("patchwork")
 install.packages("ggthemes")
+install.packages("pak")
+pak::pak("igraph/rigraph")
 install.packages("plotly")
-install.packages("highcharter")
+#install.packages("highcharter")
+remotes::install_github("jbkunst/highcharter")
 remotes::install_github("UrbanInstitute/urbnmapr")
 
 
